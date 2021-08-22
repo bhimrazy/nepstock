@@ -3,7 +3,8 @@ import nepstockLogo from '../../public/nepstock-logo.svg'
 
 export default function Header() {
     return (
-        <header className="w-full bg-gray-50">
+        <header className="w-full bg-white">
+           
             <nav className="max-w-7xl mx-auto w-full flex flex-row justify-between items-center py-5">
                 <div className="">
                     <Image
@@ -23,7 +24,7 @@ export default function Header() {
                     <li className="cursor-pointer hover:text-indigo-800">FAQs</li>
                     <li className="cursor-pointer hover:text-indigo-800">Contact</li>
                 </ul>
-                <button className=" capitalize focus:outline-none bg-gray-800 hover:bg-gray-800/95 items-center rounded-full px-4 py-2 text-sm tracking-wider text-blue-100 font-medium">sign up</button>
+                <button className=" capitalize focus:outline-none bg-gray-800 hover:bg-gray-800/95 items-center rounded-full px-4 py-2 text-sm tracking-wider text-white font-medium">sign up</button>
             </nav>
         </header>
         
