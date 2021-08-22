@@ -19,10 +19,10 @@ export default function Header() {
                     />
                 </div>
                 <ul className="hidden lg:flex flex-row space-x-6 items-center capitalize text-gray-800 font-medium">
-                    <li className="cursor-pointer hover:text-indigo-800">Home</li>
-                    <li className="cursor-pointer hover:text-indigo-800">How it Works</li>
-                    <li className="cursor-pointer hover:text-indigo-800">FAQs</li>
-                    <li className="cursor-pointer hover:text-indigo-800">Contact</li>
+                    <li className="cursor-pointer text-blue-600 font-semibold ">Home</li>
+                    <li className="cursor-pointer hover:text-blue-600">How it Works</li>
+                    <li className="cursor-pointer hover:text-blue-600">FAQs</li>
+                    <li className="cursor-pointer hover:text-blue-600">Contact</li>
                 </ul>
                 <button className=" capitalize focus:outline-none bg-gray-800 hover:bg-gray-800/95 items-center rounded-full px-4 py-2 text-sm tracking-wider text-white font-medium">sign up</button>
             </nav>

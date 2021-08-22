@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen font-poppins bg-white">
+    <div className="flex flex-col font-poppins bg-white">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
