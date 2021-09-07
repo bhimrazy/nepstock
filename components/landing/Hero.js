@@ -11,15 +11,10 @@ const fetcher = (...args) => fetch(...args, {
 
 
 export default function Hero() {
-    const { data, error } = useSWR(API, fetcher)
+    const { data, error } = useSWR(API, fetcher,{ refreshInterval: 1000 })
 
     if (!data) return <h2 className="font-semibold text-gray-500 text-normal">Loading ...</h2>
-    else {
-        const datas = data.data
-        console.log(data.data)
-        console.log(data.data.records[0].body)
 
-    }
     return (
         <>
             <div className="text-center">
