@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col font-poppins bg-white">
       <Head>
-        <title>Create Next App</title>
+        <title>NepStock | Nepal Share Market Portal</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
